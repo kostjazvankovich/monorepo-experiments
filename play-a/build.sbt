@@ -21,3 +21,5 @@ resolvers +=
 
 // Adds additional packages into conf/routes
 // play.sbt.routes.RoutesKeys.routesImport += "org.smop.binders._"
+
+
