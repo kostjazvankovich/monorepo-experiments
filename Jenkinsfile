@@ -41,11 +41,7 @@ pipeline {
                 }
             }
             steps {
-               // build 'play-a'
-                 dir('play-a') {
-                    sh 'ls'
-                    sh 'git pull'
-                  }
+               build 'play-a'
             }
         }
         stage('play-b') {
